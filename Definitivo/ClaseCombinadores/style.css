@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/*
+h2 + p{ 
+    color: red;
+}
+h2 ~ p{
+    color: blue;
+}
+div > p{
+    color: red;
+}
+*/
+div p{
+    color: red;
+}

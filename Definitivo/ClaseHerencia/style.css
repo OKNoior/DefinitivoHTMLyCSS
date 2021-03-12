@@ -1,0 +1,12 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-size: 70%;
+    font-family: verdana;
+}
+h1{
+    font-size: inherit;
+}

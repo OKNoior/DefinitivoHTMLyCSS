@@ -1,0 +1,65 @@
+*{
+    box-sizing:border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+}
+/* Horizontal
+.container{
+    border: .3rem solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+   justify-content: space-evenly;
+   justify-content: center; centra
+     justify-content: flex-end; lleva a la derecha
+     justify-content: flex-star; lleva a la izq
+     justify-content: space-around; deje espacio entre las cajas
+     justify-content: space-evenly; deje espacio entre las cajas, por igual
+} */
+/*VERTICAL*/
+
+.container{
+    border: 0.3rem solid black;
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center, flex-end, flex-star
+    align-items: stretch; si se quita el tamaño al cuadro llena hasta el tamaño del comtenedor
+    align-items: baseline; se ajusta al tamaño de su comtenido*/ 
+    
+}
+.box{
+    height: 10rem;
+    flex-basis: 10rem;
+    flex-grow: 1; 
+}
+.box1{
+    background-color: blue;
+    /*order: 1;*/
+    /*flex-grow: 1;distribuye el espacio que sobra del contenedor*/
+}
+.box2{
+    background-color: blueviolet;
+    /*order: 3;*/
+    /*flex-grow: 1;*/
+}
+.box3{
+    background-color: burlywood;
+}
+.box4{
+    background-color: cadetblue;
+}
+.box5{
+    background-color: coral;
+    /*order: 4;*/
+}
+.box6{
+    background-color: salmon;
+    /*order: 2;*/
+}
+

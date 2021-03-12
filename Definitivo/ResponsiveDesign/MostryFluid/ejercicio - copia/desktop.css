@@ -1,0 +1,22 @@
+.l1 img{
+    width: 50%;
+    height: 50%;   
+  }
+@supports(object-fit: cover){
+      .l1 img{
+        height: 100%;
+        object-fit:cover;
+        object-position: center center; 
+      }
+  }
+.c1,
+.c2,
+.c4,
+.c5
+{
+    width:33%
+}
+.c3, .c6{
+    width:34%
+}
+

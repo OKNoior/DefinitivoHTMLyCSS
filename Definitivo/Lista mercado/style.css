@@ -1,0 +1,45 @@
+body{
+    background-color:ivory;
+}
+h1{
+    text-align: center;
+    border-style: outset;
+    font-family: cambria;
+    color: teal;
+    font-size: 30px;
+}
+#grupo{
+    font-family: georgia;
+    color: orangered;
+    font-size: 30px;
+    
+}   
+#carnes{
+    display: flex;
+    border-style: outset;
+    border-radius: 1px;
+    border-collapse:collapse;
+}
+ol{
+
+    font-size: 15px;
+    font-family: gill sans;
+    border-style:outset;
+    border-width: 2px;
+    
+
+}
+#rib{
+    align-self: center;
+} 
+img{
+    border-style: groove;
+    width: 80%;
+    height: 80%;
+}
+footer{
+    font-size: 40px;
+    color: peru;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
