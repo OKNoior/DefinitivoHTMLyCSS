@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+/* Variables */
+:root{
+    --green-color: #7ACC2D;
+    --white-color:white;
+    --black-color:#313337;  
+    /* Tipografia */
+    --normal:1.2rem;
+    /* Espaciado */
+    --space: 10px;
+    /* Box shadow */
+    --box:0px 0 2px 1px #e6e5e9;    
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    font-size: var(--normal);
+}
+nav{
+    display: flex;
+    background-color: var(--green-color);
+    padding: var(--space);
+    color: var(--white-color);
+    justify-content: space-between  ;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav li{
+    padding-left: 20px;
+    list-style: none;
+}
+
+nav li a{
+    color: var(--black-color);
+    text-decoration: none;
+}
+
+nav li a:hover{
+    color:var(--white-color);
+}
+
+/*------------------- Main section*/
+
+.sales{
+    background-image: url("../images/curve.png");
+    height: 50px;
+    background-size: cover;
+    background-position: center top;
+    padding: 20%;
+    display: flex;
+    justify-content:center  ;
+}
+.sale{
+    padding: var(--space);
+    margin-top: -240px;
+}
+.sale .sale_content{
+    background-color: var(--white-color);
+    padding: var(--space);
+    box-shadow: var(--box);
+}
+.img_content{
+    text-align: center;
+}
+.sale form{
+    display: inherit;
+    justify-content: space-between;
+    font-size: 1.6rem;
+}
+.field{
+    margin: var(--space);
+    padding: var(--space);
+}
+
+.main_button{
+    background-color: var(--green-color);
+    width: 100%;
+    padding: var(--space);
+    font-size: var(--normal)
+    color: var(--white-color);
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.main_button:hover{
+    background-color: #5d9c22;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: var(--black-color);
+    color: var(--white-color);
+    padding: 20px;
+}

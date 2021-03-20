@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+
+
+.techo{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.t1,.t2{
+    width: 32vw;
+}
+.t3{
+    width: 34vw;
+}
+.cara{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}  
+.cara .c1,.c2{
+    display: inline-block;
+    width: 40vw;
+    height: 40vh;
+
+}
